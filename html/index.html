@@ -4,25 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>动画生涯个人喜好表生成器 - 神奇海螺试验场</title>
-    <meta name=keywords content="动画生涯,个人喜好表生成器,神奇海螺试验场,magiconch,卜卜口">
+    <title>動畫生涯個人喜好表生成器</title>
+    <meta name=keywords content="動畫生涯,個人喜好表生成器,神奇海螺試驗場,magiconch,卜卜口">
     <link rel="stylesheet" href="document.css">
 </head>
 <body>
     <canvas></canvas>
     <div class="ctrl-box">
-        <a class="generator-btn ui-btn" onclick="downloadImage()">生成动画生涯个人喜好表</a>
+        <a class="generator-btn ui-btn" onclick="downloadImage()">生成動畫生涯個人喜好表</a>
     </div>
     <div class="search-bangumis-box ui-shadow" data-show="false">
         <div class="content-box">
             <form>
-                <input type="text" placeholder="输入关键词、回车查找动画">
+                <input type="text" placeholder="輸入關鍵詞、Enter查找動畫">
             </form>
             <div class="anime-list"></div>
             <div class="foot">
-                <a class="close ui-btn" onclick="searchFromBangumi()">在番组计划搜索</a>
-                <a class="close ui-btn" onclick="setInputText()">没找到，就用搜索框里的文字了</a>
-                <a class="close ui-btn current" onclick="closeSearchBox()">取消设定</a>
+                <a class="close ui-btn" onclick="searchFromBangumi()">在番組計劃中搜索</a>
+                <a class="close ui-btn" onclick="setInputText()">沒找到，使用搜尋視窗裡的文字</a>
+                <a class="close ui-btn current" onclick="closeSearchBox()">取消設定</a>
             </div>
         </div>
     </div>
@@ -31,18 +31,18 @@
             <h3>生成好啦~</h3>
             <img>
             <div class="body">
-                <p>在 微博、微信、企鹅 应用中，请长按图片进行保存</p>
+                <p>在微博、微信、企鵝等應用程式中，請長按圖片進行保存</p>
             </div>
             <div class="foot">
-                <a class="close ui-btn current" onclick="closeOutput()">关闭</a>
+                <a class="close ui-btn current" onclick="closeOutput()">關閉</a>
             </div>
         </div>
     </div>
     <footer>
-        <a href="https://lab.magiconch.com/" target="_blank">神奇海螺试验场</a>
+        <a href="https://lab.magiconch.com/" target="_blank">神奇海螺試驗場</a>
         <a href="https://weibo.com/reiove" target="_blank">@卜卜口</a>
         <a href="https://github.com/itorr/anime-grid" target="_blank">GitHub</a>
-        <span>动画信息来自 <a href="https://bgm.tv/" target="_blank">番组计划</a></span>
+        <span>動畫訊息來自 <a href="https://bgm.tv/" target="_blank">番組計劃</a></span>
     </footer>
     <script src="anime-grid.js"></script>
 </body>

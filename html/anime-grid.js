@@ -29,24 +29,25 @@ const loadImage = (src,onOver)=>{
 };
 
 
-const typeTexts = `入坑作
-最喜欢
+const typeTexts = `
+入坑作
+最喜歡
 看最多次
 最想安利
+最佳劇情
 
-最佳剧情
-最佳画面
-最佳配乐
+最佳畫面
+最佳配樂
 最佳配音
+最治癒
+最感動
 
-最治愈
-最感动
 最虐心
 最被低估
-
-最过誉
-最离谱
-最讨厌`;
+最過譽
+最離譜
+最討厭
+`;
 
 const types = typeTexts.trim().split(/\n+/g);
 
@@ -81,7 +82,7 @@ const saveBangumisToLocalStorage = ()=>{
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
-const bodyMargin = 20;
+const bodyMargin = 30;
 const contentWidth = 600;
 const contentHeight = 560;
 
@@ -114,9 +115,10 @@ ctx.fillStyle = '#AAA';
 ctx.textBaseline = 'middle';
 ctx.lineCap  = 'round';
 ctx.lineJoin = 'round';
+
 ctx.fillText(
-    '@卜卜口 · lab.magiconch.com/anime-grid · 神奇海螺试验场 · 动画信息来自番组计划 · 禁止商业、盈利用途',
-    19 * scale,
+    '@卜卜口 · lab.magiconch.com/anime-grid · 神奇海螺試驗場 · 動畫訊息來自番組計劃 · 禁止商業、盈利用途',
+    110 * scale,
     (height - 10) * scale
 );
 
@@ -135,7 +137,7 @@ ctx.save();
 
 
 ctx.font = 'bold 24px sans-serif';
-ctx.fillText('动画生涯个人喜好表',contentWidth / 2, -24 );
+ctx.fillText('動畫生涯個人喜好表',contentWidth / 2, -24 );
 
 
 
@@ -356,7 +358,7 @@ const closeOutput = ()=>{
 }
 
 const downloadImage = ()=>{
-    const fileName = '[神奇海螺][动画生涯个人喜好表].jpg';
+    const fileName = '[神奇海螺][動畫生涯個人喜好表].jpg';
     const mime = 'image/jpeg';
     const imgURL = canvas.toDataURL(mime,0.8);
     const linkEl = document.createElement('a');

@@ -1,39 +1,37 @@
-![动画生涯个人喜好表](https://github.com/itorr/anime-grid/blob/master/simple.jpg?raw=true)
+![動畫生涯個人喜好表](https://github.com/jackyh1999/anime-grid/blob/master/sample.jpg?raw=true)
 
-# 🤖「动画生涯个人喜好表生成器」
+# 🤖「動畫生涯個人喜好表生成器」
 
-一个生成 动画生涯个人喜好表 的在线网页工具
+一個生成 動畫生涯個人喜好表 的網頁工具
 
-## 地址 
+forked from https://github.com/itorr/anime-grid
 
-https://lab.magiconch.com/anime-grid/
+輸出繁體中文圖片，還沒買網域僅能下載使用
 
-## 类别
+原作者GitHub https://github.com/itorr/anime-grid
 
- - 入坑作
- - 最喜欢
- - 看最多次
- - 最想安利
+## 類别
 
- - 最佳剧情
- - 最佳画面
- - 最佳配乐
- - 最佳配音
+- 入坑作
+- 最喜歡
+- 看最多次
+- 最想安利
+- 最佳劇情
 
- - 最治愈
- - 最感动
- - 最虐心
- - 最被低估
+- 最佳畫面
+- 最佳配樂
+- 最佳配音
+- 最治癒
+- 最感動
 
- - 最过誉
- - 最离谱
- - 最讨厌
-
-## GitHub
-https://github.com/itorr/anime-grid
-
+- 最虐心
+- 最被低估
+- 最過譽
+- 最離譜
+- 最討厭
 
 ## 利用
- - 动画信息来自 番组计划 https://bangumi.tv/
 
-禁止 商业、盈利 相关利用
+- 動畫訊息來自番組計劃 https://bangumi.tv/
+
+禁止商業、盈利相關利用
