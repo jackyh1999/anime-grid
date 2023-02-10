@@ -4,11 +4,11 @@
 
 一個生成 動畫生涯個人喜好表 的網頁工具
 
+連結：https://jackyh1999.github.io/anime-grid/
+
 forked from https://github.com/itorr/anime-grid
 
-輸出繁體中文圖片，還沒買網域僅能下載使用
-
-原作者GitHub https://github.com/itorr/anime-grid
+輸出繁體中文圖片
 
 ## 類别
 
@@ -32,6 +32,7 @@ forked from https://github.com/itorr/anime-grid
 
 ## 利用
 
+- 原作者GitHub https://github.com/itorr/anime-grid
 - 動畫訊息來自番組計劃 https://bangumi.tv/
 
 禁止商業、盈利相關利用
